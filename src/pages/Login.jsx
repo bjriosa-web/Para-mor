@@ -9,4 +9,4 @@ export default function Login({onOk}){const [u,setU]=useState(''),[p,setP]=useSt
   <input placeholder="CONTRASEÑA" type="password" value={p} onChange={e=>{setP(e.target.value);setErr(false)}}/>
   {err&&<p className="err">Usuario o contraseña incorrectos.</p>}<button className="gold-btn">Entrar</button>
   {/* ✏️ MODIFICAR: esta pista se puede cambiar o borrar por completo */}
-  <p className="small">Pista: usuario <b>mor</b> · contraseña: la fecha de tu cumpleaños de este año (ddmmaaaa).</p></motion.form></div>}
+  <p className="small">Pista: usuario <b>es la palabra con la que siempre te nombro(apodo)</b> · contraseña: la fecha de tu cumpleaños de este año (ddmmaaaa).</p></motion.form></div>}
