@@ -161,6 +161,6 @@ export const CFG = {
   playlist: [
      { t: 'Feliz cumpleaños', src: 'cancion-01.mp3' },
      { t: 'Diablada', src: 'cancion-02.mp3' },
-     { t: 'Título de la canción', src: 'cancion-03.mp3' },
+     { t: 'La Melodía', src: 'cancion-03.mp3' },
   ],
 };
